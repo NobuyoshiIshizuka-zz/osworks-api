@@ -1,4 +1,4 @@
-package com.nobuwebdeveloper.algaworks.osworks.domain.model;
+package com.nobuwebdeveloper.algaworks.osworks.api.model;
 
 import javax.validation.constraints.NotNull;
 
@@ -14,6 +14,5 @@ public class ClienteIdInput {
 	public void setId(Long id) {
 		this.id = id;
 	}
-	
 	
 }

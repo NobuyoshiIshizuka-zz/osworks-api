@@ -14,8 +14,8 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 
+import com.nobuwebdeveloper.algaworks.osworks.api.model.Comentario;
 import com.nobuwebdeveloper.algaworks.osworks.domain.exception.NegocioException;
-import com.nobuwebdeveloper.algaworks.osworks.domain.model.OrdemServico.Comentario;
 
 @Entity
 public class OrdemServico {
